@@ -1,0 +1,8 @@
+@import url("../../theme/variables.scss");
+
+ion-content {
+  --background: linear-gradient(
+    var(--ion-color-step-950),
+    var(--ion-color-step-750)
+  );
+}

@@ -11,6 +11,7 @@ ion-row {
   ion-button {
     min-height: 3.5rem;
     max-width: 25rem;
+    text-transform: capitalize;
     span {
       color: var(--ion-color-primary-contrast);
       font-weight: 600;

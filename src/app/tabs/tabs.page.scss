@@ -1,1 +1,13 @@
+@import url(../../theme/variables.scss);
 
+ion-tab-bar,
+ion-tab-button {
+  --background: var(--ion-color-step-850);
+  --border: none;
+  height: 4rem;
+  ion-icon {
+    color: var(--ion-color-step-50);
+    height: 55px;
+    width: 55px;
+  }
+}
