@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "bank-mobile",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
