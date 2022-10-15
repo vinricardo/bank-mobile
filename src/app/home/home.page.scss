@@ -1,0 +1,24 @@
+@import url("../../theme/variables.scss");
+
+ion-row {
+  height: 90vh;
+  h1 {
+    max-width: 18rem;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 2rem;
+  }
+  ion-button {
+    min-height: 3.5rem;
+    max-width: 25rem;
+    span {
+      color: var(--ion-color-primary-contrast);
+      font-weight: 600;
+      font-size: 18px;
+    }
+    ion-icon {
+      color: var(--ion-color-primary-contrast);
+      margin-left: 50%;
+    }
+  }
+}
