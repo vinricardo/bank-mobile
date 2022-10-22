@@ -5,4 +5,37 @@ ion-content {
     var(--ion-color-step-950),
     var(--ion-color-step-750)
   );
+  ion-col {
+    &:first-child {
+      color: var(--ion-color-step-700);
+      font-weight: bold;
+      font-size: small;
+    }
+    &:nth-child(2) {
+      color: var(--ion-color-primary-contrast);
+      font-weight: bold;
+      margin-top: -1.5rem;
+      h2 {
+        font-size: xx-large;
+        span {
+          color: var(--ion-color-step-700);
+          font-size: x-large;
+        }
+      }
+    }
+    &:nth-child(3) {
+      display: flex;
+      margin-top: -1rem;
+      * + * {
+        margin-left: 0.3rem;
+      }
+      color: var(--ion-color-green);
+      filter: invert(49%) sepia(9%) saturate(1134%) hue-rotate(66deg)
+        brightness(95%) contrast(95%);
+      span {
+        font-size: small !important;
+        font-weight: medium;
+      }
+    }
+  }
 }
